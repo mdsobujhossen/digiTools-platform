@@ -1,0 +1,130 @@
+[
+  {
+    "id": 1,
+    "name": "Starter Resume Kit",
+    "description": "Perfect for beginners to create a professional resume easily.",
+    "price": 9,
+    "period": "one-time",
+    "tag": "new",
+    "tagType": "new",
+    "features": [
+      "50+ templates",
+      "Basic customization",
+      "Export to PDF",
+      "Mobile friendly editor"
+    ],
+    "icon": "📄"
+  },
+  {
+    "id": 2,
+    "name": "Pro Resume Builder",
+    "description": "Advanced resume builder with ATS optimization.",
+    "price": 19,
+    "period": "one-time",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": [
+      "100+ templates",
+      "ATS optimization",
+      "Cover letter builder",
+      "Export to PDF & Word"
+    ],
+    "icon": "🚀"
+  },
+  {
+    "id": 3,
+    "name": "Career Growth Plan",
+    "description": "Monthly plan to help you improve your career profile.",
+    "price": 5,
+    "period": "monthly",
+    "tag": "best seller",
+    "tagType": "best-seller",
+    "features": [
+      "Weekly career tips",
+      "Resume review",
+      "Job alerts",
+      "LinkedIn optimization"
+    ],
+    "icon": "📈"
+  },
+  {
+    "id": 4,
+    "name": "Ultimate Job Pack",
+    "description": "All-in-one package for job seekers.",
+    "price": 49,
+    "period": "one-time",
+    "tag": "best seller",
+    "tagType": "best-seller",
+    "features": [
+      "200+ templates",
+      "ATS optimization",
+      "Interview preparation guide",
+      "Portfolio builder"
+    ],
+    "icon": "💼"
+  },
+  {
+    "id": 5,
+    "name": "Portfolio Website Builder",
+    "description": "Create your personal portfolio website easily.",
+    "price": 12,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": [
+      "Drag & drop builder",
+      "Custom domain support",
+      "SEO optimization",
+      "Responsive design"
+    ],
+    "icon": "🌐"
+  },
+  {
+    "id": 6,
+    "name": "Freelancer Toolkit",
+    "description": "Tools and templates for freelancers to grow faster.",
+    "price": 29,
+    "period": "one-time",
+    "tag": "new",
+    "tagType": "new",
+    "features": [
+      "Proposal templates",
+      "Invoice generator",
+      "Client management",
+      "Contract templates"
+    ],
+    "icon": "🧰"
+  },
+  {
+    "id": 7,
+    "name": "LinkedIn Booster",
+    "description": "Optimize your LinkedIn profile for better visibility.",
+    "price": 7,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": [
+      "Profile optimization",
+      "Headline generator",
+      "Connection strategy",
+      "Content ideas"
+    ],
+    "icon": "🔗"
+  },
+  {
+    "id": 8,
+    "name": "Premium Career Suite",
+    "description": "Complete yearly subscription for career success.",
+    "price": 79,
+    "period": "yearly",
+    "tag": "best seller",
+    "tagType": "best-seller",
+    "features": [
+      "All features included",
+      "Priority support",
+      "Unlimited downloads",
+      "Exclusive templates"
+    ],
+    "icon": "👑"
+  }
+]
