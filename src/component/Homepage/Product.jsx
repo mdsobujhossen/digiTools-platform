@@ -1,9 +1,15 @@
-import React from 'react';
+import React, { useState } from 'react';
 import ProductFeatures from './ProductFeatures';
 
-const Product = ({ product }) => {
-    console.log(product);
+const Product = ({ product, cart, setCart }) => {
+    const [subscribe, setSubscribe] = useState(false)
     const {name, description, price, tag, features, icon } = product
+
+
+    const handleSubscribeBtn = () => {
+        setSubscribe(true)
+        setCart([...cart, product])
+    }
 
     //     {
     //     "id": 4,
@@ -39,7 +45,7 @@ const Product = ({ product }) => {
                         }
                     </ul>
                     <div className="mt-6">
-                        <button className="btn bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white rounded-full btn-block">Subscribe</button>
+                        <button onClick={() => handleSubscribeBtn()} className="btn bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white rounded-full btn-block">{subscribe === false ? "Subscribe" : "Subscribed"}</button>
                     </div>
                 </div>
             </div>
